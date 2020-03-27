@@ -1,0 +1,5 @@
+1. navagate to your "terminal_cosmo_dir" directory (a directory is a folder however if you didn't know that you are probabliy a newbie, no offense)and type in this command "chmod 777 terminal_cosmo && chmod 777 setup".
+2. make sure you have apt installed.
+3. if you see any error mesages during the next step the program might not work, however if you see "pakage already installed" or something like that dont worry about it thats acctualy kind of a good thing.
+4. enter this command into your terminal in the "terminal_cosmo_dir" directory as root "./setup".
+5. you have installed cosmo terminal to run it go into your "terminal_cosmo_dir" directory and type in "./terminal_cosmo".

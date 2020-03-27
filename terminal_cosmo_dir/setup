@@ -1,0 +1,9 @@
+#! /bin/bash
+apt install python3
+apt install nmap
+
+
+apt full-upgrade
+apt update
+apt full-upgrade
+apt update
