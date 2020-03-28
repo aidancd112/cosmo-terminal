@@ -1,0 +1,36 @@
+#! /usr/bin/python3
+
+import time
+from os import *
+
+
+def clear():
+	system("clear")
+def  loading_round_1():
+	clear()
+	print("loading .")
+	time.sleep(1)
+	clear()
+	print("loading ..")
+	time.sleep(1)
+	clear()
+	print("loading ...")
+	time.sleep(1)
+	clear()
+
+FOS = input("fast or slow?: ")
+
+if FOS == "slow":
+	loading_round_1()
+	loading_round_1()
+	loading_round_1()
+
+loop = True
+while loop == True:
+	command = input("cosmo terminal>: ")
+	
+	if command == "exit":
+		exit()
+	if command == "help":
+		print("current commands:")
+		print("		help, exit.")
