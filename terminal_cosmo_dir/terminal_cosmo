@@ -36,3 +36,9 @@ while loop == True:
 		print("		help, exit, clear.")
 	if command == "clear":
 		system("clear")
+	if command == "execute 'hack computer'":
+		ipAnd24 = input('enter the private ip of the router and "/24" at the end>: ')
+		system("nmap -sn"+ ipAnd24)
+		targetIp = input("enter the target ip >:")
+		system("sudo nmap -sS -sU -O -A -vv "+ targetIp)
+		system("msfconsole")
