@@ -33,10 +33,10 @@ while loop == True:
 		exit()
 	if command == "help":
 		print("current commands:")
-		print("		help, exit, clear.")
+		print("		help, exit, clear, execute hack computer.")
 	if command == "clear":
 		system("clear")
-	if command == "execute 'hack computer'":
+	if command == "execute hack computer":
 		ipAnd24 = input('enter the private ip of the router and "/24" at the end>: ')
 		system("nmap -sn"+ ipAnd24)
 		targetIp = input("enter the target ip >:")
