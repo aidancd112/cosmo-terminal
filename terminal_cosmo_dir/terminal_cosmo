@@ -33,4 +33,6 @@ while loop == True:
 		exit()
 	if command == "help":
 		print("current commands:")
-		print("		help, exit.")
+		print("		help, exit, clear.")
+	if command == "clear":
+		system("clear")
