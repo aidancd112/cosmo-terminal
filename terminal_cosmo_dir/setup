@@ -1,14 +1,10 @@
 #! /bin/bash
-sudo -s
 apt install python3
 apt install nmap
-echo "# cosmo terminal apllication aliases" >> ~/.bashrc
-echo "" >> ~/.bashrc
-echo "alias cosmo_terminal='cd && cd cosmo-terminal/terminal_cosmo_dir/ && ./terminal_cosmo && cd'" >> ~/.bashrc
-echo "" >> ~/.bashrc
+sudo echo "# cosmo terminal apllication aliases" >> ~/.bashrc
+sudo echo "alias cosmo_terminal='cd && cd cosmo-terminal/terminal_cosmo_dir/ && ./terminal_cosmo && cd'" >> ~/.bashrc
 apt full-upgrade
 apt update
 apt full-upgrade
 apt update
 bash
-
