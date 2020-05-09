@@ -1,5 +1,5 @@
 1. navagate to your "terminal_cosmo_dir" directory.
 2. make sure you have apt installed.
 3. if you see any error mesages during the next step the program might not work.
-4. enter ./setup as root in your terminal.
+4. enter ./setup as root in your terminal and then again as non-root.
 5. you have installed cosmo terminal type "cosmo_terminal" in your terminal to run.
