@@ -2,8 +2,7 @@
 sudo -s
 apt install python3
 apt install nmap
-echo "" >> ~/.bashrc
-echo "" >> ~/.bashrc
+echo "# cosmo terminal apllication aliases" >> ~/.bashrc
 echo "" >> ~/.bashrc
 echo "alias cosmo_terminal='cd && cd cosmo-terminal/terminal_cosmo_dir/ && ./terminal_cosmo && cd'" >> ~/.bashrc
 echo "" >> ~/.bashrc
