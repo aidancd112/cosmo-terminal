@@ -18,12 +18,10 @@ def  loading_round_1():
 	time.sleep(1)
 	clear()
 
-FOS = input("fast or slow?: ")
 
-if FOS == "slow":
-	loading_round_1()
-	loading_round_1()
-	loading_round_1()
+loading_round_1()
+loading_round_1()
+loading_round_1()
 
 loop = True
 while loop == True:
@@ -42,3 +40,4 @@ while loop == True:
 		targetIp = input("enter the target ip >:")
 		system("sudo nmap -sS -sU -O -A -vv "+ targetIp)
 		system("msfconsole")
+#	if command`== "":
